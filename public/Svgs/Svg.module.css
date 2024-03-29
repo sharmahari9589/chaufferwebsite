@@ -1,0 +1,11 @@
+.XcatlaneLogo {
+  width: 170px;
+  height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .XcatlaneLogo {
+    width: 120px;
+    height: 30px;
+  }
+}

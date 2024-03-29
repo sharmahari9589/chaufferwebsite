@@ -1,0 +1,108 @@
+.MainDetailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.MainDetailsSubMain {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.YourTrip {
+  margin: 0px;
+  margin: 0px;
+  font-family: Nunito;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 116.667% */
+  letter-spacing: 1.92px;
+}
+
+.dateAndDriverDetails {
+  margin: 0px;
+
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 116.667% */
+  letter-spacing: 0.92px;
+}
+
+.Divider {
+  width: 100%;
+  background: #1d242d;
+  height: 1px;
+  opacity: 0.6;
+}
+
+.DetailList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  & h1 {
+    margin: 0px;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 116.667% */
+    letter-spacing: 0.92px;
+  }
+
+  & ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+
+    gap: 25px;
+    width: auto;
+    flex-wrap: wrap;
+    & li {
+      width: 46%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16px; /* 116.667% */
+      letter-spacing: 0.92px;
+    }
+  }
+}
+
+.Routes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  & h1 {
+    margin: 0px;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 116.667% */
+    letter-spacing: 0.92px;
+  }
+}
+.RouteMain {
+  display: flex;
+  gap: 40px;
+  h5 {
+    line-height: 30px;
+    margin: 0px;
+  }
+}
+
+.arrow {
+  height: 2px;
+  width: 80px;
+  background: #000;
+  align-self: center;
+  opacity: 0.6;
+}

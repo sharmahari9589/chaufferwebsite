@@ -1,0 +1,124 @@
+.BookingInfoMain {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.BookingInfoDate {
+  display: flex;
+  padding: 16px;
+  width: 100%;
+
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px 8px 0px 0px;
+  background: #f2f2f2;
+
+  & p {
+    color: var(--Foundation-Black-Dark, #1d242d);
+
+    /* Heading / H4 / Semi Bold */
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 121.429% */
+    letter-spacing: -0.56px;
+    margin: 0px;
+  }
+}
+
+.BookingInfoTravelInfo {
+  display: flex;
+  padding: 12px 24px;
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20px;
+  border-radius: 0px 0px 8px 8px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  background: #fff;
+}
+
+.TravellingInfoMain {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.TravellingFrom {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.TravellingFromText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+
+  & p {
+    color: var(--Foundation-Black-Dark, #1d242d);
+
+    /* Heading / H5 - Small / Semi Bold */
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px; /* 121.053% */
+    letter-spacing: -0.38px;
+    margin: 0px;
+  }
+
+  & h4 {
+    color: var(--Foundation-Black-Dark, #1d242d);
+
+    /* Heading / H5 / Semi Bold */
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 121.739% */
+    letter-spacing: -0.46px;
+  }
+}
+
+.TravellingFromSvg {
+  display: flex;
+  padding: 14px;
+  align-items: flex-start;
+
+  border-radius: 13.327px;
+  background: var(--bg, #f7f7f7);
+}
+
+.FooterText {
+  color: var(--Foundation-Black-Normal, #546881);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.4px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .TravellingInfoMain {
+    flex-direction: column;
+  }
+}

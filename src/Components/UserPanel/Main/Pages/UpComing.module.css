@@ -1,0 +1,106 @@
+.BookingDetailsMain {
+  padding: 20px 30px;
+
+  border: 1px solid #d3d3d3;
+  border-radius: 16px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.BookingDetailsTextMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  & h4 {
+    margin: 0px;
+    color: var(--Foundation-Black-Dark, #1d242d);
+
+    /* Heading/H1/Semi Bold */
+    font-family: Lato;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px; /* 116.667% */
+    letter-spacing: 0.5px;
+  }
+}
+
+.BookingDetailsDateAndTimeMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+
+  & h5 {
+    margin: 0px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 116.667% */
+    letter-spacing: 0.92px;
+  }
+
+  & p {
+    margin: 0px;
+    margin: 0px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 116.667% */
+    letter-spacing: 0.92px;
+  }
+}
+.BookingModeMain {
+  display: flex;
+
+  & h1 {
+    margin: 0px;
+    margin: 0px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 116.667% */
+    letter-spacing: 0.92px;
+  }
+}
+.bookingPaybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  gap: 10px;
+}
+
+.UpcomingRidesHeading {
+  padding: 0px 0px 0px 100px;
+
+  & h2 {
+    margin: 0px;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 0.92px;
+  }
+}
+
+/* .Listings {
+  & li:hover {
+    & span {
+      color: #fff !important;
+    }
+
+    & i {
+      color: #fff;
+    }
+  }
+} */

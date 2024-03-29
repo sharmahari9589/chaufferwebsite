@@ -1,0 +1,51 @@
+.HeaderMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.HeaderLogin {
+  color: var(--Foundation-Surface-White, #fff);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+
+  & p {
+    margin: 0px;
+  }
+}
+.HeaderSubMain {
+  display: flex;
+  gap: 24px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.HeaderLoginMain {
+  display: flex;
+  gap: 12px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.HeaderLogin {
+  display: flex;
+  color: var(--Foundation-Surface-White, #fff);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.VisibleLoginIn {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .VisibleLoginIn {
+    display: none;
+  }
+}

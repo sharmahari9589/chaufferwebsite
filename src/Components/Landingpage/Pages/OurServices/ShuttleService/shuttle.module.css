@@ -1,0 +1,312 @@
+.HeroMain {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+
+  & h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 111.111% */
+    letter-spacing: -1.88px;
+    margin-bottom: 50px;
+    & span {
+      color: #0bc36b;
+      text-align: center;
+      font-family: Playfair Display;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 111.111% */
+      letter-spacing: -1.88px;
+    }
+  }
+}
+
+.Sections {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.BookingDeatils {
+  width: 70%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 20px;
+  gap: 20px;
+
+  background: #fcfaf4;
+  border-radius: 16px;
+  margin-top: -160px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.DifferentReturnLocation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  & p {
+    color: #2b3635;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin: 0px;
+  }
+}
+
+.Input {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  height: 51.556px;
+  padding-right: 0.035px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid gray;
+  gap: 10px;
+  padding: 10px 20px;
+  & input {
+    width: 100%;
+    background: #fcfaf4;
+    border: none;
+    outline: none;
+  }
+  input::placeholder {
+    color: #8d8e90;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+.AirportTransferMain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.AirportTransfer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 8px;
+
+  & p {
+    color: var(--Foundation-Black-Normal, #546881);
+    text-align: justify;
+
+    /* Paragraph/P2/Regular */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 150% */
+    opacity: 0.6;
+  }
+
+  & h1 {
+    color: var(--Foundation-Black-Normal, #000);
+    /* text-align: justify; */
+
+    /* Paragraph/P2/Regular */
+    font-family: Lato;
+    font-size: 44px;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 150% */
+  }
+}
+
+.Benefits {
+  padding: 60px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BenefitsMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.BenefitsMainText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & h1 {
+    color: var(--Foundation-Black-Dark, #1d242d);
+
+    /* Heading/H1/Semi Bold */
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    /* letter-spacing: 0.2px; */
+    margin: 0px;
+  }
+
+  & p {
+    color: var(--Foundation-Black-Normal, #546881);
+
+    /* Paragraph/P2/Regular */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 150% */
+    margin: 0px;
+    text-align: center;
+  }
+}
+
+.ImagesAndText {
+  padding: 80px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PickUpDeatilsFormFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.SelectLabel {
+  color: var(--Foundation-text-Normal, #1c1c1c);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px 10px;
+}
+.SelectFeild {
+  display: flex;
+  padding: 18px 19px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 8px;
+  border: 0.5px solid #d6d6d6;
+  outline: none;
+}
+
+.SelectFeild::placeholder {
+  color: var(--Foundation-Grey-grey-200, #b5b6b7);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .ImagesAndText {
+    padding: 10px;
+  }
+  .AirportRow {
+    padding: 10px 10px;
+  }
+  .Benefits {
+    padding: 50px 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .BenefitsMainText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & h1 {
+      font-size: 18px;
+      line-height: 30px; /* 116.667% */
+    }
+
+    & p {
+      font-size: 14px;
+      line-height: 18px; /* 150% */
+    }
+  }
+
+  .AirportTransfer {
+    gap: 16px;
+
+    & p {
+      text-align: justify;
+
+      font-size: 14px;
+
+      line-height: 20px;
+      opacity: 0.6;
+    }
+
+    & h1 {
+      font-size: 30px;
+
+      line-height: 28px; /* 150% */
+    }
+  }
+  .BookingDeatils {
+    width: 90%;
+  }
+  .DifferentReturnLocation {
+    justify-content: center;
+  }
+
+  .TextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    & h1 {
+      font-size: 40px;
+
+      line-height: 50px; /* 111.111% */
+      letter-spacing: -2.88px;
+      margin-bottom: 50px;
+      & span {
+        font-size: 50px;
+        font-style: normal;
+
+        line-height: 50px; /* 111.111% */
+        letter-spacing: -2.88px;
+      }
+    }
+  }
+}

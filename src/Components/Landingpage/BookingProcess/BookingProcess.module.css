@@ -1,0 +1,9 @@
+.BookingProcessMain {
+  padding: 0px 120px;
+}
+
+@media screen and (max-width: 640px) {
+  .BookingProcessMain {
+    padding: 20px;
+  }
+}

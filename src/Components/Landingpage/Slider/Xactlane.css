@@ -1,0 +1,106 @@
+body {
+  /* font-family: arial;
+  font-size: 12px;
+  background: #fff; */
+}
+#blade {
+  position: relative;
+  /* background-color: #fff; */
+  /* background-size: cover; */
+  background-position: center center;
+  width: 100%;
+  /* height: 100vh; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  /* padding-top: 5vw; */
+  -webkit-transition: all 0.5s ease-out;
+  background-size: contain;
+  height: 230px;
+  background-repeat: no-repeat;
+}
+
+#blade .mentor {
+  position: absolute;
+  max-width: 600px;
+  /* top: -200px; */
+  right: 25vw;
+  color: #fff;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+  opacity: 0;
+  transition: opacity 0.5s, top 1.5s;
+}
+#blade .mentor--show {
+  top: 10vw;
+  opacity: 1;
+}
+.circle-carousel {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 0px;
+  margin-right: -23%;
+  transition: transform 0.9s;
+  z-index: 201;
+}
+.circle-carousel__item {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.circle-carousel__item.active {
+  background: #333 !important;
+  border: 2px solid #333;
+  /* transform: scale(1.8); */
+  transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.circle-carousel__item.next-to-active {
+  transform: scale(1.5);
+}
+.circle-carousel__item div {
+  background-size: contain;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.top-svg {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 10vw;
+  z-index: 200;
+  /* set height to pixels if you want angle to change with screen width */
+}
+.bottom-svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+@media screen and (max-width: 600px) {
+  .circle-carousel {
+    margin-right: -82%;
+  }
+}

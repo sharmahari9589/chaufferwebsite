@@ -1,0 +1,919 @@
+.HeroMain {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 90px; */
+
+  & p {
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px; /* 121.053% */
+    letter-spacing: -0.38px;
+  }
+
+  & h1 {
+    color: #fff;
+    margin: 0px;
+
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 111.111% */
+    letter-spacing: -0.88px;
+  }
+}
+
+.BottomText {
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px; /* 121.053% */
+  letter-spacing: 0.38px;
+}
+
+.Sections {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.BookingDeatils {
+  width: 70%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 20px;
+  gap: 20px;
+
+  background: #fcfaf4;
+  border-radius: 16px;
+  margin-top: -114px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.DifferentReturnLocation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  & p {
+    color: #2b3635;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin: 0px;
+  }
+}
+
+.Input {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  height: 51.556px;
+  padding-right: 0.035px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid gray;
+  gap: 10px;
+  padding: 10px 20px;
+  & input {
+    width: 100%;
+    background: #fcfaf4;
+    border: none;
+    outline: none;
+  }
+  input::placeholder {
+    color: #8d8e90;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.SelectCarBtn {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: #089250;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  line-height: normal;
+}
+
+.SelectLabel {
+  color: #8d8e90;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.SelectInput {
+  color: #2b3635;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+}
+
+.WhyXactLane {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  gap: 24px;
+  padding: 120px 75px 20px 75px;
+  justify-content: center;
+}
+
+.WhyXactLaneMain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+
+  & h1 {
+    color: var(--Foundation-Black-Dark, #1d242d);
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 117.647% */
+    letter-spacing: -1.36px;
+    margin: 0px;
+  }
+
+  & p {
+    color: var(--Foundation-Black-Normal, #546881);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0px;
+
+    opacity: 0.6;
+  }
+}
+
+.WhyXactLanePic {
+  height: 100%;
+  width: 100%;
+}
+
+.OurFleet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+.OurFleetMainDiv {
+  height: 300px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 10px 70px;
+  align-items: center;
+  border-radius: 64px;
+  background: var(--Foundation-text-Normal, #fff);
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.OurFleetLeftMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurFleetLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 6px;
+
+  & h1 {
+    color: var(--Foundation-Surface-White, #000);
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 117.647% */
+    letter-spacing: -1.36px;
+    margin: 0px;
+  }
+
+  & p {
+    margin: 0px;
+    color: var(--Foundation-Surface-White, #000);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 150% */
+    opacity: 0.6;
+  }
+}
+
+.ExploreMore {
+  width: 70%;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  /* padding: 16px 20px; */
+  background: #089250;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  line-height: normal;
+}
+
+.OurCustomerMain {
+  display: flex !important;
+  justify-content: center;
+  gap: 40px;
+  margin: 80px 0px !important;
+  padding: 70px 0px;
+}
+
+.OurCustomerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 12px;
+
+  & h1 {
+    color: var(--Foundation-Black-Dark, #1d242d);
+    font-family: Playfair Display;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.92px;
+    align-self: stretch;
+    margin: 0px;
+  }
+
+  & p {
+    color: var(--Foundation-Black-Normal, #546881);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0px;
+  }
+}
+
+.Slider {
+  height: 200px !important;
+}
+.SliderMain {
+  display: flex;
+}
+.CustomerMainBox {
+  display: flex;
+  width: 98%;
+  position: relative;
+  margin-top: 20px;
+  max-width: 400px;
+  height: 86%;
+  padding: 20px 24px;
+  align-items: center;
+  gap: 24px !important;
+  border-radius: 8px;
+  background: var(--Foundation-text-Normal, #1c1c1c);
+  /* background: #f2f2f2; */
+
+  /* card-drop-2 */
+  /* box-shadow: 20px 14px 40px 0px rgba(0, 0, 0, 0.08); */
+}
+.soloCustomer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  margin-left: 110px;
+  & p {
+    margin: 0px;
+    color: #fff;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 121.429% */
+    align-self: stretch;
+  }
+}
+
+.Rating {
+  color: var(--Foundation-Surface-White, #fff);
+  font-family: Lato;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px; /* 100% */
+}
+
+.CustomerName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+
+  & h5 {
+    margin: 0px;
+    color: var(--Foundation-Surface-White, #fff);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px; /* 121.429% */
+  }
+
+  & p {
+    color: var(--Foundation-Surface-White, #fff);
+    font-family: Lato;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8px; /* 100% */
+  }
+}
+
+.CustomerImage {
+  width: 114px;
+  height: 180px;
+  position: absolute;
+  left: 15px;
+  top: -20.5px;
+  border-radius: 16px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.OurAdvantage {
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  padding: 0px 40px;
+  gap: 12px;
+  & h1 {
+    color: var(--Foundation-text-Normal, #1c1c1c);
+    font-family: Playfair Display;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.92px;
+    margin: 0px;
+  }
+
+  & p {
+    color: var(--Foundation-Black-Normal, #546881);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 150% */
+    align-self: stretch;
+    margin: 0px;
+  }
+}
+
+.OurAdvantagesBox {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(28, 28, 28, 0.16);
+  max-width: 300px !important;
+  width: 100%;
+
+  & p {
+    color: #626976;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 162.5% */
+    letter-spacing: 0.048px;
+    margin: 0px;
+  }
+}
+
+.SmartSegmentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+
+  & p {
+    color: var(--Foundation-text-Normal, #1c1c1c);
+    text-align: center;
+    font-family: Lato;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 121.739% */
+    letter-spacing: -0.46px;
+    margin: 0px;
+  }
+}
+.ServicesMain {
+  justify-content: center;
+  width: 100%;
+  padding: 20px 120px;
+}
+
+.Services2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  width: 30% !important;
+
+  & h1 {
+    color: var(--Foundation-Black-Dark, #000);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.92px;
+  }
+
+  & p {
+    color: var(--Foundation-Black-Normal, #546881);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 150% */
+    margin: 0px;
+  }
+}
+
+.BenzFeatures {
+  height: auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 50px 100px;
+
+  /* background-image: url("path/to/your/image.jpg"); Replace 'path/to/your/image.jpg' with the actual image URL */
+  background-repeat: no-repeat;
+
+  background-position: center; /* Center the background image */
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.services2Main {
+  width: 250px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  & p {
+    color: var(--Foundation-text-Normal, #1c1c1c);
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 121.739% */
+    letter-spacing: -0.46px;
+  }
+}
+
+.Services {
+  height: 100%;
+  display: flex;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ServicesSubSection {
+  display: flex;
+  gap: 10px;
+}
+
+.ServicesSubSection:hover {
+  .servicesNavigationMain {
+    & h4 {
+      color: var(--Foundation-text-Normal, #000);
+    }
+    & p {
+      color: var(--Foundation-text-Normal, #000);
+    }
+  }
+
+  .servicesButtonCenter {
+    background: #fff;
+  }
+  .servicesButton {
+    background: #0bc36b;
+  }
+}
+
+.active {
+  .servicesNavigationMain {
+    & h4 {
+      color: var(--Foundation-text-Normal, #000);
+    }
+    & p {
+      color: var(--Foundation-text-Normal, #000);
+    }
+  }
+
+  .servicesButtonCenter {
+    background: #fff;
+  }
+  .servicesButton {
+    background: #0bc36b;
+  }
+}
+
+.servicesButton {
+  margin-top: 7px;
+  width: 30px;
+  height: 40px;
+  border-radius: 13px;
+  background: var(--Foundation-Primary-Normal, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesButtonCenter {
+  width: 14px;
+  height: 14px;
+  background: #b2bbc6;
+  border-radius: 100%;
+}
+.servicesNavigationMain {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: start;
+  justify-content: start;
+  & h4 {
+    color: var(--Foundation-text-Normal, #b2bbc6);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 121.739% */
+    letter-spacing: -0.46px;
+    margin: 0px;
+  }
+  & p {
+    color: var(--Foundation-text-Normal, #b2bbc6);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 121.739% */
+    letter-spacing: -0.46px;
+    margin: 0px;
+  }
+}
+
+.HoverImageContainer {
+  padding: 20px 100px;
+
+  & img {
+    /* transition: width 2s, height 4s; */
+  }
+}
+
+.PickUpDeatilsFormFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  /* margin-top: 10px; */
+}
+
+.SelectLabel {
+  color: var(--Foundation-text-Normal, #1c1c1c);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px 10px;
+}
+.SelectFeild {
+  display: flex;
+  padding: 13px 19px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: inherit;
+  outline: none;
+}
+
+.SelectFeild::placeholder {
+  color: var(--Foundation-Grey-grey-200, #b5b6b7);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInClass {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+.smartSegmentation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.smartSegmentationBox {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.OurAdvantageMainDiv {
+  padding: 80px 40px;
+}
+
+.OurAdvantagesBoxWidth {
+  width: 300px;
+}
+
+.gap {
+  gap: 0px;
+}
+
+.ServiceMainContainer {
+  padding: 20px 120px;
+}
+@media screen and (max-width: 600px) {
+  .OurAdvantageWidth {
+    width: 100% !important;
+  }
+  .BookingDeatils {
+    width: 90%;
+  }
+  .gap {
+    gap: 10px;
+  }
+
+  .TextContainer {
+    & h1 {
+      color: #fff;
+
+      font-size: 48px;
+
+      line-height: 50px; /* 111.111% */
+    }
+  }
+  .DifferentReturnLocation {
+    justify-content: center;
+  }
+  .WhyXactLane {
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ServicesMain {
+    padding: 0px;
+  }
+  .Services2 {
+    width: 100% !important;
+  }
+  .HoverImageContainer {
+    padding: 40px 10px;
+    gap: 40px;
+  }
+  .smartSegmentationBox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .OurFleet {
+    padding: 4px;
+  }
+  .OurFleetMainDiv {
+    height: 400px;
+    width: 100%;
+    margin: 10px 70px;
+  }
+  .OurFleetLeft {
+    align-items: center;
+    & p {
+      text-align: center;
+    }
+  }
+  .ExploreMore {
+    width: 100%;
+    padding: 0px;
+  }
+  .OurCustomerMain {
+    display: flex !important;
+    justify-content: center;
+    gap: 40px;
+    margin: 0px 0px !important;
+    padding: 20px 0px;
+  }
+  .Slider {
+    height: 350px !important;
+  }
+  .SliderMain {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .soloCustomer {
+    gap: 6px;
+    & p {
+      font-size: 8px;
+
+      line-height: 12px; /* 121.429% */
+    }
+  }
+  .CustomerImage {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 15px;
+    top: -8px;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+  }
+  .CustomerMainBox {
+    margin-top: 20px;
+    height: 130px;
+    padding: 10px 24px;
+
+    border-radius: 8px;
+  }
+
+  .CustomerName {
+    gap: 0px;
+  }
+  .OurAdvantage {
+    align-items: center;
+    padding: 0px 2px; /* gap: 12px; */
+    & h1 {
+      color: var(--Foundation-text-Normal, #1c1c1c);
+      font-family: Playfair Display;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 50px; /* 116.667% */
+      letter-spacing: -1.92px;
+      margin: 0px;
+    }
+
+    & p {
+      line-height: 20px; /* 150% */
+      text-align: center;
+    }
+  }
+  .OurAdvantageMainDiv {
+    padding: 80px 4px;
+  }
+  .OurAdvantagesBoxWidth {
+    width: 100%;
+  }
+  .ServiceMainContainer {
+    padding: 0px;
+  }
+
+  .BenzFeatures {
+    background-size: 100% 50%;
+    background-position: center; /* Center the background image */
+    gap: 180px;
+  }
+  .services2Main {
+    width: 150px;
+
+    & p {
+      color: var(--Foundation-text-Normal, #1c1c1c);
+
+      font-size: 10px;
+
+      line-height: 16px; /* 121.739% */
+    }
+  }
+  .Services {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .BookingDeatils {
+    width: 1000px;
+  }
+  .WhyXactLane {
+    gap: 100px;
+  }
+  .BenzFeatures {
+    background-size: 50% 60%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .BenzFeatures {
+    background-size: 50% 80%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2500px) {
+  .OurAdvantageWidth {
+    width: 50% !important;
+  }
+  .ourFleetMain {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 3000px) {
+  .SliderWidth {
+    width: 58% !important;
+  }
+  .SliderTextWidth {
+    width: 38% !important;
+  }
+}

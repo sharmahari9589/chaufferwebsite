@@ -1,0 +1,135 @@
+.menu {
+  /* top: 50%; */
+  /* margin-top: -125px; */
+  width: auto;
+  position: relative;
+  /* height: 100; */
+  /* margin-left: 50px; */
+  display: flex;
+  flex-direction: column;
+  max-height: 311px;
+
+  li {
+    list-style-type: none;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* New CSS */
+.submenu {
+  position: absolute;
+  top: 80px;
+  /* right: 33.11%; */
+  right: 262px;
+  width: 250px;
+  visibility: hidden;
+  text-align: right;
+  border-right: 1px solid white;
+  padding-right: 20px;
+}
+.submenu li {
+  font-size: 16px;
+}
+.menu li:hover .submenu {
+  visibility: visible !important;
+}
+
+/* New CSS END */
+.Overlay {
+  /* z-index: -100; */
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 50%; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  /* left: 0; */
+  right: 0;
+  bottom: 0;
+  /* background: linear-gradient(to Left, rgba(0, 0, 0, 1), transparent); */
+
+  background: linear-gradient(to Left, rgba(0, 0, 0, 1), transparent);
+  /* background: linear-gradient(to right, white, black); */
+  /* background-color: #000; */
+
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.SideBar-Li-Main {
+  display: flex;
+
+  gap: 8px;
+
+  & span {
+    color: #fff;
+    display: none;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  & h5 {
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    /* letter-spacing: -2.4px; */
+    margin: 0px;
+  }
+}
+
+.visibleOnMobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .Overlay {
+    width: 100%;
+  }
+  .SideBar-Li-Main {
+    & span {
+      font-size: 12px;
+
+      line-height: 24px; /* 150% */
+    }
+
+    & h5 {
+      color: #fff;
+
+      font-size: 22px;
+
+      line-height: 50px;
+    }
+  }
+  .submenu {
+    position: absolute;
+    /* top: 40%; */
+    /* right: 33.11%; */
+    right: 186px;
+    visibility: hidden;
+    text-align: right;
+    border-right: 1px solid white;
+    padding-right: 20px;
+  }
+
+  .submenu li {
+    font-size: 14px;
+  }
+
+  .menu {
+    white-space: nowrap;
+    li {
+      font-size: 13px;
+      line-height: 30px;
+    }
+  }
+  .visibleOnMobile {
+    display: block;
+  }
+}
